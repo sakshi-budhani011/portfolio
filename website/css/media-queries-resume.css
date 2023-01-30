@@ -1,0 +1,66 @@
+/* Laptops large devices (desktops, 1600px and up) */ 
+@media (min-width: 1600px) and (max-width: 1699.98px) {}
+
+/* Laptops large devices (desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+/* Laptops small devices (desktops, 1200px and up) */ 
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */ 
+@media (min-width: 1200px) {}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+/* Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    header{
+        padding: 12px 20px;
+    }
+    .nav-logo {
+        height: 30px;
+    }
+    .navbar ul li {
+        font-size: 16px;
+        padding: 14px;
+    }
+    .container{
+        width: 100%;
+    }
+    .row{
+        display: block;
+        padding: 0px 30px;
+    }
+    .col-6{
+        width: 100%;
+        display: block;
+    }
+    
+    .eductionItems h3 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .eductionItems h2 {
+        font-size: 20px;
+    }
+    .year{
+        font-size: 14px;
+    }
+    .eductionItems ul li strong {
+        font-size: 16px;
+    }
+    .eductionItems ul li p {
+        font-size: 14px;
+    }
+
+}

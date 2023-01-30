@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+    
+}
+html{
+    /* overflow: hidden; */
+}
+header{
+    background-color: transparent;
+    position: relative;
+    top: 0;
+    z-index: 99;
+    padding: 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    height: 40px;
+}
+.nav-logo img{
+    object-fit: contain;
+}
+.nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-bottom: 6px;
+}
+.navbar ul li a:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+    visibility: hidden;
+}
+.navbar ul li a:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contactForm{
+    position: relative;
+    padding: 5px;
+}
+.row{
+    display: flex;
+    position: relative;
+    padding: 40px 30px;
+    box-shadow: 2px 2px 6px #ff4646;
+    border-radius: 10px;
+    background-color: white;
+}
+.col-6{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(98, 96, 96);
+    background-color: #888;
+}
+input, textarea{
+    display: block;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #b93232;
+    background-color: #ece9e9;
+    padding: 7px 20px 7px 20px;
+    border: 1px solid #888;
+}
+.button {
+    background-color: #ff4646;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+  .padding{
+    padding: 8px;
+  }
+  .emailWrap{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+a{
+    text-decoration: none;
+    color: black;
+}
+.emailItems{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px 8px;
+}
+.emailWrap iframe{
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+}
+.copyrightWrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 6px;
+    font-size: 14px;
+}
+.conditionWrap{
+    width: 20%;
+    display: flex;
+    justify-content:space-between;
+}
+
+/* /////////////////////////resume.css/////////////////////// */
+.resumeForm{
+    padding: 5px;
+}
+.eductionItems h3{
+    color: #ff4646;
+    letter-spacing:3px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.eductionItems h2{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.eductionItems ul{
+  
+    list-style: none;
+    position: relative;
+}
+.eductionItems ul:before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #888;
+    position: absolute;
+    top: 0;
+    left: 4px;
+}
+.eductionItems ul li{
+    position: relative;
+    padding-left: 20px;
+}
+.eductionItems ul li:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #888;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.eductionItems ul li:hover:before{
+    background-color: #ff4646;
+    transition: all .5s ease;
+}
+
+.year{
+    background-color: #eb5f5f; 
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding:4px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    position: relative;
+    left: 0;
+}
+.eductionItems ul li strong{
+    display: block;
+}
+.eductionItems ul li:hover .year{
+    position: relative;
+    left: 10px;
+}
+.eductionItems ul li p{ 
+    padding-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .eductionItemsTop ul li:nth-child(1){
+    background-color: #ff4646;
+    padding: 10px 0px 10px 7px;
+    font-size: 14px;
+} */
+/* .eductionItemsTop ul li:nth-child(2){
+    color: rgb(114, 113, 113);
+    font-size: 16px;
+    padding-top: 5px;
+} */
+/* .eductionItemsTop ul li:nth-child(3){
+    font-size: 16px;
+    padding-top: 5px;
+    color: #000;
+} */

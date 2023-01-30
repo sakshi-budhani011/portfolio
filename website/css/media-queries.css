@@ -1,0 +1,208 @@
+ /* Laptops large devices (desktops, 1600px and up) */
+@media (min-width: 1600px) and (max-width: 1699.98px) {
+}
+
+ /* Laptops large devices (desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+}
+ /* Laptops small devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .col-6 {
+        width: 100%;
+    }
+    .nav-logo {
+        width: 150px;
+    }
+    .col-8 {
+       width: 60%;
+    }
+    .container {
+        padding: 55px 60px;
+    }
+    header{
+        padding: 50px 60px 0 60px;
+    }
+    .detailSide {
+        padding-top: 200px;
+    }
+    .navbar ul li {
+        font-size: 24px;
+        padding: 13px;
+    }
+    .nav-logo img {
+        width: auto;
+    }
+    .navbar ul li:nth-child(3) {
+        padding-right: 0px;
+    }
+    .navbar ul {
+        justify-content: flex-end;
+    }
+    .containerElements {
+        font-size: 26px;
+        padding-top: 20px;
+    }
+    .details {
+        padding: 26px 0px 10px 0px;
+    }
+    .containerItems ul li {
+        padding-right: 20px;
+    }
+    .detailsItem {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .detailsItem p {
+        font-size: 20px;
+    }
+    .copyrightWrap {
+        padding-top: 30px;
+    }
+    .profileSide{
+        display: none;
+    }
+    .copyrightWrap p{
+        font-size: 18px;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        padding: 0px 30px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-2{
+        width: 20%;
+    }
+    .nav-logo {
+        width: 20px;
+    }
+    .col-8 {
+       width: 60%;
+    }
+    header{
+        padding: 16px 28px 0 28px;
+    }
+    .detailSide {
+        padding-top: 100px;
+    }
+    .navbar ul li {
+        font-size: 17px;
+        padding: 13px;
+    }
+    .navbar ul li:nth-child(3) {
+        padding-right: 0px;
+    }
+    .navbar ul {
+        justify-content: flex-end;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h1 span{
+        font-weight: 900;
+        display: inline;
+        font-size: 36px;
+    }
+    .containerElements {
+        font-size: 17px;
+    }
+    button{
+        padding: 7px 14px;
+    }
+    .containerItems ul li {
+        padding-right: 20px;
+    }
+    .detailsItem {
+        padding-top: 10px;
+    }
+    .copyrightWrap {
+        padding-top: 30px;
+    }
+    .profileSide{
+        display: none;
+    }
+    .containerItems {
+        padding-top: 20px;
+    }
+    button {
+        padding: 7px 12px;
+    }
+    .copyrightWrap {
+        padding-top: 20px;
+    }
+    }
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 24px 30px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-2{
+        padding-left: 19px;
+    }
+    .nav-logo {
+        width: 20px;
+    }
+    .col-8 {
+       width: 80%;
+    }
+    header{
+        padding: 40px 0 0 0;
+    }
+    .detailSide {
+        padding-top: 120px;
+    }
+    .navbar ul li {
+        font-size: 17px;
+        padding: 13px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .containerElements {
+        font-size: 17px;
+    }
+    button{
+        padding: 7px 14px;
+    }
+    .containerItems ul li {
+        padding-right: 20px;
+    }
+    .detailsItem {
+        padding-top: 10px;
+    }
+    .copyrightWrap {
+        padding-top: 30px;
+    }
+    .profileSide{
+        display: none;
+    }
+    .detailsItem strong{
+        font-size: 16px;
+    }
+    .detailsItem p{
+        font-size: 14px;
+    }
+    .copyrightWrap p{
+        font-size: 14px;
+    }
+
+
+}
